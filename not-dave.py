@@ -12,15 +12,15 @@ async def annoy():
 
 @bot.event
 async def on_ready():
-    count = 0
-    print('Logged in as')
-    print(bot.user.name)
-    print(bot.user.id)
-    print('------')
-    while 1 == 1:
-        count = count + 1
-        if count%10 == 0:
-            print(count)
-        task = await asyncio.create_task(annoy())
+	count = 0
+	print('Logged in as')
+	print(bot.user.name)
+	print(bot.user.id)
+	print('------')
+	while 1 == 1:
+		count = count + 1
+		if count%10 == 0:
+			print(count)
+		task = await asyncio.create_task(annoy())
 
 bot.run(config.bot_token)
