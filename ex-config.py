@@ -1,13 +1,13 @@
 # rename to config.py to get the config file to import properly
 
-bot_token = 'MTgyMjg4MTA2MzgzMzQzNjE3.XLkxyg.UgPoJIhiEYqbWIIsmeqVZ59uVCc'
+bot_token =
 # token for bot
 # format with ''
 
-user_to_ping = '245063734719021056'
+user_to_ping =
 # id number of the discord user to ping
 # format with ''
 
-channel_to_send = 568564984184045588
+channel_to_send =
 # format without ''
 # id number of the discord channel to ping in
